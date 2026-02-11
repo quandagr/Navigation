@@ -3,3 +3,22 @@ body{
   color:wheat;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
 }
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #041c35;
+  padding: 1rem;
+}
+nav a{
+  color: wheat;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav a:hover{
+  color: #ff6347;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
