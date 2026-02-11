@@ -12,11 +12,19 @@ function App() {
   return (
     <BrowserRouter>
    
-    <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-around">
+    <nav className ="navbar navbar-expand-lg justify-content-start gap-3">
       <Link to="/">Home</Link>
       <Link to="/contact">Contact</Link>
     </nav>
-  
+    < div className = "dropdown-divider">
+    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  Dropdown button
+</button>
+<ul className="dropdown-menu" aria-labelledby="Menu Button">
+  <li><a className="dropdown-item" href="#"><Home></Home></a></li>
+  <li><a className="dropdown-item" href="#">Contact</a></li>
+  </ul>
+    </div>  
     
       <Routes>
         {/* Add the routes for the Home and Contact components here */}
