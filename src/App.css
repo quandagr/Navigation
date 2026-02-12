@@ -23,3 +23,12 @@ nav a:hover{
   margin: 0 auto;
   padding: 2rem;
 }
+Navdropdown-menu{
+  background-color: #041c35;
+}
+Navdropdown-item{
+  color: wheat;
+}
+Navdropdown-item:hover{
+  color: #ff6347;
+}
